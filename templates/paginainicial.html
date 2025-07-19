@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body> 
+
+    
+
+   <div class="form-e-imagem">
+
+    <div class="imagem-logo">
+        <img src="{{ url_for('static', filename='images/logo_confirmare.png') }}" alt="Logo Confirmare">
+    </div>
+
+    <a href="/cadastrar">
+    <button type="button">Cadastrar lembrete</button>
+  </a>
+    <button type="submit">Remover lembrete cadastrado</button>
+
+</div>
+
+    
+</body>
+</html>
